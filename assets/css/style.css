@@ -1074,6 +1074,8 @@ form .form-group{
 
 .years-exp .number-count .value{
     margin-right: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .years-exp .number-count .value h2{
@@ -1082,10 +1084,16 @@ form .form-group{
     font-weight: 800;
 }
 
+.years-exp .number-count .value span{
+    color: #185cc9;
+    font-size: 75px;
+    font-weight: 500;
+}
+
 .years-exp .number-count .para p{
     color: #999c9d;
     font-weight: 500;
-    font-size: 20px;   
+    font-size: 17px;   
 }
 
 .years-exp .place-count{

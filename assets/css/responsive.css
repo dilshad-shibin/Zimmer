@@ -391,7 +391,7 @@
 ****************************** */
 @media(max-width: 991px){
     .welcome-area{
-        height: 170vh;
+        height: 190vh;
     }
     .order-1-991{
         order: 1;
@@ -468,22 +468,28 @@
     .social-icons{
         margin-bottom: 20px;
     }
+    .welcome-area {
+        height: 170vh;
+    }
 }
 
 @media(max-width:575px){
     .welcome-area {
-        height: 210vh;
+        height: 190vh;
     }
     .welcome-thumb {
         margin-bottom: 35px;
     }
     .years-exp{
-        flex-direction: column;
+        position: absolute;
+        top: -630px;
+        width: 90%;
+    }
+    .years-exp .number-count .value span{
+        font-size: 30px;
     }
     .years-exp .number-count{
-        border-right: none;
-        border-bottom: 1px solid #c6cad4;
-        padding-bottom: 8px;
+        padding-right: 10px;
     }
     .welcome-intro > h3{
         font-size: 18px;
@@ -492,24 +498,25 @@
         font-size: 32px;
     }
     .years-exp .number-count .para p{
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 12px;
+        line-height: 15px;
     }
     .years-exp .place-count{
-        margin-left: 0;
+        margin-left: 15px;
     }
     .welcome-form{
         padding: 45px 25px;
+        margin-top: 140px;
     }
     .years-exp .number-count .value h2{
-        font-size: 60px;
+        font-size: 30px;
         line-height: 0.8;
     }
     .years-exp .place-count h2 span{
-        font-size: 18px;
+        font-size: 12px;
     }
     .years-exp .place-count h2{
-        font-size: 32px;
+        font-size: 25px;
         line-height: 1;
     }
     .welcome-intro{
@@ -558,5 +565,9 @@
     }
     .pr-40{
         padding-right: 15px;
+    }
+    .form-title h4{
+        text-align: center;
+        margin-bottom: 25px;
     }
 }
