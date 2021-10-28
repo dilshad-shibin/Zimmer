@@ -444,6 +444,7 @@
     .welcome-form{
         margin-bottom: 25px;
     }
+}
 
 @media(max-width: 767px){
     .pr-0{
