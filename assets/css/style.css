@@ -1006,6 +1006,8 @@ a,
     padding: 45px 35px;
     box-shadow: 0 0 10px #185cc9;
     border-radius: 10px;
+    position: relative;
+    z-index: 15;
 }
 
 .form-title h4{
@@ -1117,6 +1119,7 @@ form .form-group{
 ****************************** */
 .products-area{
     background-color: #f0f2f8;
+    z-index: 10;
 }
 
 .product-head h1{

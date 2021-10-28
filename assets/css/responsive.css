@@ -389,6 +389,38 @@
 /* ******************************
 :: 3.0 WELCOME AREA TO Start CSS
 ****************************** */
+@media(max-width: 1199px){
+    .welcome-intro > h3{
+        font-size: 22px;
+    }
+    .welcome-intro > h1{
+        font-size: 30px;
+    }
+    .years-exp .number-count .value h2{
+        font-size: 50px;
+    }
+    .years-exp .number-count .value span{
+        font-size: 40px;
+    }
+    .years-exp .number-count .para p{
+        font-size: 14px;
+    }
+    .years-exp .place-count h2 span {
+        font-size: 20px;
+    }
+    .years-exp .place-count h2{
+        font-size: 32px;
+    }
+    .form-group input, .form-group select {
+        height: 45px;
+    }
+    .form-group input[type="submit"] {
+        height: 45px;
+    }
+
+}
+
+
 @media(max-width: 991px){
     .welcome-area{
         height: 190vh;
